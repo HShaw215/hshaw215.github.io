@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <>
         {/* <NavBar /> */}
-        <Route />
+       <p>Testing</p>
         </>
     )
 }
