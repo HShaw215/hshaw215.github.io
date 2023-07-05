@@ -6,7 +6,18 @@ const Main = () => {
     return (
         <>
         <NavBar />
-       <p>Testing</p>
+        <div>
+            <p>Insert Picture Here</p>
+        </div>
+        <div>
+            <p>
+                Hello, my name is Hunter Shaw. I am a software engineer currently working at ReKuberate, a Kubernetes cluster visualizer
+                 and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
+            </p>
+            <p>
+                
+            </p>
+        </div>
         </>
     )
 }
