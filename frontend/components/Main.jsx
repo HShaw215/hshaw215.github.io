@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
+import '../stylesheet/styles.css'
 
 const Main = () => {
     return (
@@ -9,7 +10,7 @@ const Main = () => {
         <div class="pic">
             <p>Insert Picture Here</p>
         </div>
-        <div>
+        <div class="body">
             <p>
                 Hello, my name is Hunter Shaw. I am a software engineer currently working at ReKuberate, a Kubernetes cluster visualizer
                  and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
