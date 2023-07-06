@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <>
         <NavBar />
-        <div>
+        <div class="pic">
             <p>Insert Picture Here</p>
         </div>
         <div>

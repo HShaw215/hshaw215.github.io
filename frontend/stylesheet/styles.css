@@ -4,8 +4,9 @@ nav {
     border: 2px solid black;
     border-radius: 7px;
     box-shadow: 1px 1px 1px rgb(0, 128, 119);
-    height: 6vw;
+    height: 4vw;
     justify-content: space-around;
+    align-items: center;
 }
 
 button {
@@ -14,4 +15,11 @@ button {
     height: 4vh;
     background-color: green;
     box-shadow: 1px 1px 1px black;
+}
+
+.pic {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border: 2px solid black;
 }
