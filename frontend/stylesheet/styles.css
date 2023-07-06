@@ -7,3 +7,11 @@ nav {
     height: 6vw;
     justify-content: space-around;
 }
+
+button {
+    border-radius: 7px;
+    width: 6vw;
+    height: 4vh;
+    background-color: green;
+    box-shadow: 1px 1px 1px black;
+}
