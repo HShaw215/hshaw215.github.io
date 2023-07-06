@@ -15,7 +15,7 @@ const Main = () => {
                  and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
             </p>
             <p>
-                
+                Outside of coding I am passionate about hockey, reading, skiing, and DJing.
             </p>
         </div>
         </>
