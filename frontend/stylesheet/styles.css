@@ -27,6 +27,12 @@ button {
     button {
         width: 75px;
     }
+    .pic {
+        width: 300px;
+    }
+    .body {
+        width: 300px;
+    }
 }
 
 .pic {
