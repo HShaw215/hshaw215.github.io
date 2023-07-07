@@ -12,11 +12,11 @@ nav {
 }
 
 button {
-    border-radius: 12px;
+    border-radius: 8px;
     width: 6vw;
     height: 4vh;
-    background-color: green;
-    box-shadow: 1px 1px 1px black;
+    background-color: rgb(5, 180, 5);
+    box-shadow: 1px 1px 1px rgb(1, 85, 1);
 }
 
 @media screen and (max-width: 1000px) {
