@@ -39,7 +39,7 @@ button {
     justify-content: center;
     display: flex;
     margin-top: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 7px;
     margin: auto;
     margin-top: 5vh;
@@ -54,4 +54,9 @@ button {
     margin: auto;
     margin-top: 3vh;
     width: 25vw;
+}
+
+.headshot {
+    height: 55vh;
+    width: 35vh;
 }

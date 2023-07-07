@@ -2,13 +2,14 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import '../stylesheet/styles.css'
+import hunter from '../assets/hunter.JPG'
 
 const Main = () => {
     return (
         <>
         <NavBar />
         <div class="pic">
-            <p>Insert Picture Here</p>
+            <img src={hunter} class="headshot"></img>
         </div>
         <div class="body">
             <p>
