@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import '../stylesheet/styles.css'
-import hunter from '../assets/hunter.JPG'
+import hunter from '../assets/hunterWide.JPG'
 
 const Main = () => {
     return (
