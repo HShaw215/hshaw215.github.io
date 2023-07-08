@@ -4,6 +4,7 @@
     flex-direction: row;
     gap: 20vh;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 nav {
@@ -12,8 +13,7 @@ nav {
     border: 2px solid black;
     border-radius: 7px;
     /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
-    height: 4vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 25vw;
     height: 30vw;
@@ -46,11 +46,10 @@ button {
 .pic {
     justify-content: center;
     display: flex;
-    margin-top: 10px;
     /* border: 2px solid black; */
     border-radius: 7px;
     margin: auto;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     width: 25vw;
 }
 
