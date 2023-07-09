@@ -13,13 +13,13 @@
     margin-top: 10vh;
 }
 
-nav {
+ul {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 7px;
     /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
-    justify-content: space-evenly;
+    gap: 20px;
     align-items: center;
     width: 25vw;
     height: 30vw;
@@ -59,7 +59,7 @@ button {
     width: 25vw;
 }
 
-.body {
+.bio {
     display: flex;
     flex-direction: column;
     justify-content: center;

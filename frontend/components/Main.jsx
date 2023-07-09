@@ -9,10 +9,9 @@ const Main = () => {
         <div class="main">
             <NavBar />
             <div class='text'>
-                <div class="pic">
-                    <img src={hunter} class="headshot"></img>
-                </div>
-                <div class="body">
+                <img src={hunter} class="pic" alt="Hunter Shaw"></img>
+                <hr></hr>
+                <div class="bio">
                     <p>
                         Hello, my name is Hunter Shaw. I am a software engineer currently working at ReKuberate, a Kubernetes cluster visualizer
                         and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
