@@ -17,6 +17,10 @@ const Main = () => {
                         and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
                     </p>
                     <p>
+                        A list of my previous work can be found by going to the projects link on the left. All of my most recent projects
+                        are starred at the top at the top of my Github.
+                    </p>
+                    <p>
                         Outside of coding I am passionate about hockey, reading, skiing, and DJing.
                     </p>
                 </div>

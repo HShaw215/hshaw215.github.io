@@ -65,7 +65,7 @@ button {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 3vh;
+    /* margin-top: 1vh; */
     width: 25vw;
 }
 
