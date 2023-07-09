@@ -1,9 +1,15 @@
 
+#root{
+    max-width: 800px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
 .main {
     display: flex;
     flex-direction: row;
     gap: 20vh;
-    justify-content: center;
     margin-top: 10vh;
 }
 
