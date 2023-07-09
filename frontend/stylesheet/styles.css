@@ -17,10 +17,10 @@ ul {
     display: flex;
     flex-direction: column;
     /* border: 2px solid black; */
-    border-radius: 7px;
+    /* border-radius: 7px; */
     /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
     gap: 20px;
-
+    text-align: center;
     width: 10vw;
     height: 30vw;
 }
@@ -82,4 +82,13 @@ button {
     display: flex;
     flex-direction: column;
     gap: 3vh;
+}
+
+header {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
