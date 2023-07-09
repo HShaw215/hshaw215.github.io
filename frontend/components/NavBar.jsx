@@ -9,7 +9,7 @@ const NavBar = () => {
             {/* <button onClick = {() => location.href='https://github.com/HShaw215'}>Projects</button>
             <button onClick = {() => location.href='https://www.linkedin.com/in/hshaw215/'} >LinkedIn</button>
             <button onClick = {() => location.href='mailto:hu.shaw215@gmail.com'}>Email</button> */}
-            <header><strong>Hunter Shaw</strong></header>
+            <header>Hunter Shaw</header>
             <div class='links'>
                 <a href='https://github.com/HShaw215'>Projects</a>
                 <a href='https://www.linkedin.com/in/hshaw215/'>LinkedIn</a>

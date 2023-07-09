@@ -85,10 +85,16 @@ button {
 }
 
 header {
-    color: blue;
+    color: rgb(0, 140, 255);
+    font-weight: bolder;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+#rekuberate {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
 }

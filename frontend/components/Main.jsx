@@ -13,7 +13,9 @@ const Main = () => {
                 <hr></hr>
                 <div class="bio">
                     <p>
-                        Hello, my name is Hunter Shaw. I am a software engineer currently working at ReKuberate, a Kubernetes cluster visualizer
+                        Hello, my name is Hunter Shaw. I am a software engineer currently working at 
+                        <a id='rekuberate' href='https://rekuberate.org'> ReKuberate</a>
+                        , a Kubernetes cluster visualizer
                         and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
                     </p>
                     <p>
