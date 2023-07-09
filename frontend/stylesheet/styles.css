@@ -34,18 +34,16 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
-    nav {
-        width: 300px;
+    header {
+        width: 50vh;
         height: 35px;
+        flex-direction: row;
     }
-    button {
-        width: 75px;
+    .headshot {
+        width: 50vh;
     }
-    .pic {
-        width: 300px;
-    }
-    .body {
-        width: 300px;
+    .bio {
+        width: 50vh;
     }
 }
 
