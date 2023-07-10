@@ -16,14 +16,16 @@ const Main = () => {
                         Hello, my name is Hunter Shaw. I am a software engineer currently working at 
                         <a id='rekuberate' href='https://rekuberate.org'> ReKuberate</a>
                         , a Kubernetes cluster visualizer
-                        and health monitor. My responsibilities are across the entire stack but I am passionate about backend development.
+                        and health monitor. My responsibilities are across the entire stack but my true passion is in
+                        backend development.
                     </p>
                     <p>
                         A list of my previous work can be found by going to the projects link on the left. All of my most recent projects
                         are starred at the top at the top of my Github.
                     </p>
                     <p>
-                        Outside of coding I am passionate about hockey, reading, skiing, and DJing.
+                        Outside of coding I am passionate about hockey, reading, skiing, and DJing. If you want to talk more about
+                        coding or even any of my hobbies, feel free to reach out to me via email or on LinkedIn.
                     </p>
                 </div>
             </div>
