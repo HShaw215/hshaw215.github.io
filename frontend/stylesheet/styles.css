@@ -39,11 +39,19 @@ button {
         height: 35px;
         flex-direction: row;
     }
+    .main{
+        flex-direction: column;
+    }
     .headshot {
         width: 50vh;
     }
     .bio {
         width: 50vh;
+    }
+    ul {
+        flex-direction: row;
+        height: 10vh;
+        position: relative;
     }
 }
 
