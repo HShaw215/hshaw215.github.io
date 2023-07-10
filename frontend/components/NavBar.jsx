@@ -14,6 +14,7 @@ const NavBar = () => {
                 <a href='https://github.com/HShaw215'>Projects</a>
                 <a href='https://www.linkedin.com/in/hshaw215/'>LinkedIn</a>
                 <a href='mailto:hu.shaw215@gmail.com'>Email</a>
+                <a href='https://youtu.be/EvpbJDMiep4'>Tech Talk</a>
             </div>
             
         </ul>
