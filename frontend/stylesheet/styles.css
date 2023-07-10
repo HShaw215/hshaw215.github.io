@@ -37,7 +37,6 @@ button {
     header {
         width: 50vh;
         height: 35px;
-        flex-direction: row;
     }
     .main{
         flex-direction: column;
@@ -49,9 +48,14 @@ button {
         width: 50vh;
     }
     ul {
-        flex-direction: row;
         height: 10vh;
         position: relative;
+        height: 100px;
+        flex-direction: column;
+      
+    }
+    .links {
+        flex-direction: row;
     }
 }
 
