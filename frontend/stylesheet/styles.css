@@ -12,7 +12,7 @@ body {
     display: flex;
     font-family: 'Crimson Text', serif;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .main {
@@ -21,12 +21,8 @@ body {
 }
 
 .nav {
-    /* border: 2px solid black; */
-    /* border-radius: 7px; */
-    /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
     gap: 20px;
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: last baseline;
     width: 25vw;
     margin-top: 7vh;
@@ -40,40 +36,12 @@ button {
     background-color: rgb(5, 180, 5);
     box-shadow: 1px 1px 1px rgb(1, 85, 1);
 }
-/* 
-@media screen and (max-width: 1000px) {
-    header {
-        width: 50vh;
-        height: 35px;
-    }
-    .main{
-        flex-direction: column;
-    }
-    .headshot {
-        width: 50vh;
-    }
-    .bio {
-        width: 50vh;
-    }
-    .links {
-        flex-direction: row;
-    }
-    ul {
-        height: 10vh;
-        position: relative;
-        height: 100px;
-        flex-direction: column;
-      
-    }
-} */
 
 .pic {
     justify-content: center;
     display: flex;
-    /* border: 2px solid black; */
     border-radius: 7px;
     margin: auto;
-    /* margin-top: 5vh; */
     width: 25vw;
 }
 
@@ -83,7 +51,6 @@ button {
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* margin-top: 1vh; */
     width: 25vw;
 }
 
@@ -110,7 +77,7 @@ button {
 
 .name {
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.45em;
     font-weight: 600;
 }
 
