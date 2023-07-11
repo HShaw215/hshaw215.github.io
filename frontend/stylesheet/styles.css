@@ -29,6 +29,7 @@ body {
     align-items: last baseline;
     width: 25vw;
     margin-top: 7vh;
+    white-space: nowrap;
 }
 
 button {
@@ -117,9 +118,9 @@ a {
     color: black;
 }
 
-.rekuberate {
+#rekuberate {
     text-decoration: none;
-    color: rgb(0, 140, 255);
+    color: #00BF86;
 }
 
 .line {
