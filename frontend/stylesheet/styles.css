@@ -3,51 +3,62 @@ body {
 }
 
 #container{
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    display: flex;
+    margin: 130px auto;
+    width: 445px;
     font-family: 'Crimson Text', serif;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-}
+/* .main {
+    /* display: flex;
+    flex-direction: column; */
+/* } */
 
 .nav {
-    gap: 20px;
-    display: flex;
+    /* gap: 20px; */
+    /* display: inline-block;
     align-items: last baseline;
     width: 25vw;
-    margin-top: 7vh;
-    white-space: nowrap;
+    /* margin-top: 7vh; */
+    /* white-space: nowrap; */ 
+    margin: 0 0 5px 0;
 }
 
-button {
-    border-radius: 8px;
-    width: 6vw;
-    height: 4vh;
-    background-color: rgb(5, 180, 5);
-    box-shadow: 1px 1px 1px rgb(1, 85, 1);
+.menu {
+    display: inline;
+    /* flex-direction: row; */
+    float: right;
+    /* gap: 1.5vw; */
+    padding-top: 6px;
+}
+
+.menuItem {
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    display: inline-block;
+    font-size: 1.45em;
+    font-family: 'Lato', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
 }
 
 .pic {
     justify-content: center;
-    display: flex;
+    /* display: flex; */
     border-radius: 7px;
     margin: auto;
     width: 25vw;
 }
 
 .bio {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -61,26 +72,6 @@ button {
 
 .text {
     flex-direction: column;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    gap: 3vh;
-}
-
-.menuItem {
-    display: inline-block;;
-    text-decoration: none;
-    color: black;
-}
-
-.name {
-    display: inline-block;
-    font-size: 1.45em;
-    font-family: 'Lato', sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
 }
 
 a {
