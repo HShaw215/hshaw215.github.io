@@ -78,7 +78,9 @@ button {
 .name {
     display: inline-block;
     font-size: 1.45em;
-    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
 }
 
 a {
