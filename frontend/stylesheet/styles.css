@@ -53,25 +53,14 @@ body {
     /* display: flex; */
     border-radius: 7px;
     margin: auto;
-    width: 25vw;
+    width: 460px;
 }
 
 .bio {
-    /* display: flex; */
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 25vw;
-}
-
-.headshot {
-    height: 40vh;
-    width: 80vw;
-}
-
-.text {
-    flex-direction: column;
+    /* width: 25vw; */
 }
 
 a {
