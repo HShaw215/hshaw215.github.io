@@ -8,9 +8,9 @@ const Main = () => {
     return (
         <div class="main">
             <NavBar />
+            <hr class='line'></hr>
             <div class='text'>
                 <img src={hunter} class="pic" alt="Hunter Shaw"></img>
-                <hr></hr>
                 <div class="bio">
                     <p>
                         Hello, my name is Hunter Shaw. I am a software engineer currently working at 
@@ -20,8 +20,8 @@ const Main = () => {
                         backend development.
                     </p>
                     <p>
-                        A list of my previous work can be found by going to the projects link on the left. All of my most recent projects
-                        are starred at the top at the top of my Github.
+                        A list of my previous work can be found by going to the projects link on the left. All of my portfolio projects
+                        are starred at the top of my Github.
                     </p>
                     <p>
                         Outside of coding I am passionate about hockey, reading, skiing, and DJing. If you want to talk more about
