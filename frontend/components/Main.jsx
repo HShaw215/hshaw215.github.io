@@ -20,7 +20,7 @@ const Main = () => {
                         backend development.
                     </p>
                     <p>
-                        A list of my previous work can be found by going to the projects link on the left. All of my portfolio projects
+                        A list of my previous work can be found by going to the Projects link above. All of my portfolio projects
                         are starred at the top of my Github.
                     </p>
                     <p>
