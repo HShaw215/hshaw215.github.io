@@ -7,7 +7,6 @@ import hunter from '../assets/hunterWide.JPG'
 const Main = () => {
     return (
         <div class="main">
-            <NavBar />
             <hr class='line'></hr>
             <div class='text'>
                 <img src={hunter} class="pic" alt="Hunter Shaw"></img>

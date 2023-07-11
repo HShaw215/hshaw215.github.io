@@ -1,10 +1,13 @@
 
-#root{
+#container{
+    display: flex;
+    flex-direction: column;
     max-width: 800px;
     justify-content: center;
     align-items: center;
     margin: auto;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .main {
@@ -13,7 +16,7 @@
     margin-top: 10vh;
 }
 
-ul {
+.nav {
     /* border: 2px solid black; */
     /* border-radius: 7px; */
     /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
@@ -24,7 +27,6 @@ ul {
     margin: auto;
     height: 3vh;
     width: 25vw;
-    
 }
 
 button {
@@ -96,9 +98,11 @@ button {
     gap: 3vh;
 }
 
-header {
-    color: rgb(0, 140, 255);
-    font-weight: bolder;
+.name {
+    /* color: rgb(0, 140, 255); */
+    /* font-weight: bolder; */
+    font-size: 1.45em;
+    font-weight: 600;
 }
 
 a {
