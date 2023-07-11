@@ -10,7 +10,8 @@ body {
     align-items: center;
     margin: auto;
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Crimson Text', serif;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
 }
 
@@ -120,7 +121,8 @@ a {
 
 #rekuberate {
     text-decoration: none;
-    color: #00BF86;
+    color: #02996cf7;
+    font-weight: 500;
 }
 
 .line {
