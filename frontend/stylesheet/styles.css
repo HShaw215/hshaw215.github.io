@@ -1,0 +1,64 @@
+body {
+    background-color: #FCFCFC;
+}
+
+#container{
+    margin: 130px auto;
+    width: 460px;
+    font-family: 'Crimson Text', serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+}
+
+.nav {
+    margin: 0 0 5px 0;
+}
+
+.menu {
+    display: inline;
+    float: right;
+    padding-top: 6px;
+}
+
+.menuItem {
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    display: inline-block;
+    font-size: 1.45em;
+    font-family: 'Lato', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+}
+
+.pic {
+    justify-content: center;
+    border-radius: 7px;
+    margin: auto;
+    width: 460px;
+}
+
+.bio {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.project {
+    text-decoration: none;
+    color: #02996cf7;
+    font-weight: 500;
+}
+
+.line {
+    margin-bottom: 20px;
+}
