@@ -4,7 +4,7 @@ body {
 
 #container{
     margin: 130px auto;
-    width: 445px;
+    width: 460px;
     font-family: 'Crimson Text', serif;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
@@ -86,6 +86,6 @@ a {
 }
 
 .line {
-    width: 25vw;
+    /* width: 100px; */
     margin-bottom: 20px;
 }
