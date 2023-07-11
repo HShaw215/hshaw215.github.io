@@ -10,26 +10,13 @@ body {
     font-size: 18px;
 }
 
-/* .main {
-    /* display: flex;
-    flex-direction: column; */
-/* } */
-
 .nav {
-    /* gap: 20px; */
-    /* display: inline-block;
-    align-items: last baseline;
-    width: 25vw;
-    /* margin-top: 7vh; */
-    /* white-space: nowrap; */ 
     margin: 0 0 5px 0;
 }
 
 .menu {
     display: inline;
-    /* flex-direction: row; */
     float: right;
-    /* gap: 1.5vw; */
     padding-top: 6px;
 }
 
@@ -50,7 +37,6 @@ body {
 
 .pic {
     justify-content: center;
-    /* display: flex; */
     border-radius: 7px;
     margin: auto;
     width: 460px;
@@ -60,7 +46,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* width: 25vw; */
 }
 
 a {
@@ -75,6 +60,5 @@ a {
 }
 
 .line {
-    /* width: 100px; */
     margin-bottom: 20px;
 }

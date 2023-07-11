@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../stylesheet/styles.css'
 
 const NavBar = () => {
-
     return (
         <>
         <div class='nav'>
@@ -16,7 +15,6 @@ const NavBar = () => {
         </div>
         </>
     )
-
 }
 
 export default NavBar
