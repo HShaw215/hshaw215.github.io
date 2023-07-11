@@ -1,3 +1,6 @@
+body {
+    background-color: #FCFCFC;
+}
 
 #container{
     display: flex;
@@ -7,13 +10,13 @@
     align-items: center;
     margin: auto;
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
 }
 
 .nav {
@@ -22,11 +25,10 @@
     /* box-shadow: 1px 1px 1px rgb(0, 128, 119); */
     gap: 20px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    height: 3vh;
+    /* justify-content: space-evenly; */
+    align-items: last baseline;
     width: 25vw;
+    margin-top: 7vh;
 }
 
 button {
@@ -92,16 +94,21 @@ button {
     flex-direction: column;
 }
 
-.links {
+.menu {
     display: flex;
     flex-direction: row;
     gap: 3vh;
 }
 
+.menuItem {
+    display: inline-block;;
+    text-decoration: none;
+    color: black;
+}
+
 .name {
-    /* color: rgb(0, 140, 255); */
-    /* font-weight: bolder; */
-    font-size: 1.45em;
+    display: inline-block;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -116,6 +123,6 @@ a {
 }
 
 .line {
-    width: 50vw;
+    width: 25vw;
     margin-bottom: 20px;
 }
