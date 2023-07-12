@@ -10,7 +10,6 @@
         "dev": "webpack-dev-server --mode development --open --hot",
         "build": "webpack --mode production",
         "start": "NODE_ENV=production nodemon ./Server/index.js",
-        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "keywords": [],
