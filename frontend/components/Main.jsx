@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheet/styles.css'
-import hunter from '../assets/hunterWide.JPG'
+import hunter from '/Users/huntershaw/codingPrep/personal-site/frontend/assets/hunterWide.JPG'
 
 const Main = () => {
     return (
