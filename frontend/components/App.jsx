@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import '../stylesheet/styles.css'
-import Page from './Page';
+import '../stylesheet/styles.css';
+import Main from './Main';
+import NavBar from './NavBar';
 
 const App = () => {
     return (
         <>
-        <Routes>
-           <Route path='/' element={<Page />} />
-        </Routes>
-      
+        <NavBar />
+        <Main />
         </>
     )
 }
