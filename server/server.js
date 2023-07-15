@@ -10,8 +10,6 @@ if (process.env.NODE_ENV === 'production'){
     app.use('/', express.static(path.resolve(__dirname, '../build')));
 }
 
-
-
 app.use((err, req, res, next) => {
     console.log(err);
     res.status(500).send({error: err})
