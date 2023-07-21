@@ -1,8 +1,6 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import NavBar from './NavBar';
 import '../stylesheet/styles.css'
-import hunter from '../assets/hunterWide.JPG'
+import hunter from '/Users/huntershaw/codingPrep/personal-site/frontend/assets/hunterwide.JPG'
 
 const Main = () => {
     return (

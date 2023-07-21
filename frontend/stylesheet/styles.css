@@ -3,7 +3,7 @@ body {
 }
 
 #container{
-    margin: 130px auto;
+    margin: 5vh auto;
     width: 460px;
     font-family: 'Crimson Text', serif;
     -moz-osx-font-smoothing: grayscale;

@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 if (process.env.NODE_ENV === 'production'){
-    app.use('/', express.static(path.resolve(__dirname, '../dist')));
+    app.use('/', express.static(path.resolve(__dirname, '../build')));
 }
 
 app.use((err, req, res, next) => {
