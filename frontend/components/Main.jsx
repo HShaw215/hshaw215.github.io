@@ -6,7 +6,7 @@ const Main = () => {
     return (
          <main class="main">
             <hr class='line'></hr>
-            <figure class='text'>
+            <section class='text'>
                 <img src={hunter} class="pic" alt="Hunter Shaw"></img>
                 <body class="bio">
                     <p>
@@ -26,7 +26,7 @@ const Main = () => {
                         coding or any of my hobbies, feel free to reach out to me via email or on LinkedIn.
                     </p>
                 </body>
-            </figure>
+            </section>
         </main> 
     )
 }
