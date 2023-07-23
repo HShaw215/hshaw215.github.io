@@ -4,11 +4,11 @@ import hunter from '/Users/huntershaw/codingPrep/personal-site/frontend/assets/h
 
 const Main = () => {
     return (
-        <div class="main">
+         <main class="main">
             <hr class='line'></hr>
-            <div class='text'>
+            <figure class='text'>
                 <img src={hunter} class="pic" alt="Hunter Shaw"></img>
-                <div class="bio">
+                <body class="bio">
                     <p>
                         Hello, I'm Hunter. I am a software engineer living in New York. Currently I am working at 
                         <a class='project' href='https://rekuberate.org'> ReKuberate</a>
@@ -25,9 +25,9 @@ const Main = () => {
                         Outside of coding I am passionate about hockey, reading, skiing, and DJing. If you want to talk more about
                         coding or any of my hobbies, feel free to reach out to me via email or on LinkedIn.
                     </p>
-                </div>
-            </div>
-        </div> 
+                </body>
+            </figure>
+        </main> 
     )
 }
 
