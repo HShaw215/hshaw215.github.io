@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweblanding=self.webpackChunkweblanding||[]).push([[664],{664:(e,a,n)=>{n.r(a),n.d(a,{default:()=>s});var c=n(294);const t=n.p+"e4691474ed7341a9c522a8d56bce90aa.webp",s=function(){return c.createElement("img",{src:t,class:"pic",alt:"Hunter Shaw"})}}}]);
