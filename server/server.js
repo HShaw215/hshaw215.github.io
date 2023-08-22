@@ -8,6 +8,10 @@ if (process.env.NODE_ENV === 'production'){
     app.use('/', express.static(path.resolve(__dirname, '../build')));
 }
 
+app.use(function (req, res, next) {
+    res.set('Cache-control', 'public, max-age=31536000')
+  })
+
 //global error handler
 app.use((err, req, res, next) => {
     console.log(err);
