@@ -1,13 +1,20 @@
-import React from 'react';
-import '../stylesheet/styles.css'
-import hunter from '/Users/huntershaw/codingPrep/personal-site/frontend/assets/hunterwide.JPG'
+import React, {lazy, Suspense} from 'react';
+import '../stylesheet/styles.css';
+
+const Component1 = lazy(() => import(
+   '../components/LazyImage'
+))
 
 const Main = () => {
     return (
          <main class="main">
             <hr class='line'></hr>
             <section class='text'>
-                <img src={hunter} class="pic" alt="Hunter Shaw"></img>
+                <Suspense fallback = 
+                {<div>Photo loading please wait...</div>}>
+                    <Component1 />
+                </Suspense>
+                {/* <img src={hunter} class="pic" alt="Hunter Shaw"></img> */}
                 <body class="bio">
                     <p>
                         Hello, I'm Hunter. I am a software engineer living in New York. Currently I am working at 
