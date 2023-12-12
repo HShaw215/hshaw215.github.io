@@ -17,16 +17,21 @@ const Main = () => {
                 {/* <img src={hunter} class="pic" alt="Hunter Shaw"></img> */}
                 <body class="bio">
                     <p>
-                        Hello, I'm Hunter. I am a software engineer living in New York. Currently I am working at 
+                        Hello, I'm Hunter. I am a software engineer living in New York. Currently I work at 
                         <a class='project' href='https://rekuberate.org'> ReKuberate</a>
-                        , an Open Source Kubernetes cluster monitoring tool with visualization capabilities.
-                        My responsibilities are across the entire stack but my true passion is in
-                        backend development.
+                        , a Kubernetes cluster monitoring tool with visualization capabilities.
                     </p>
                     <p>
-                        My most recent project that I am still currently working on is 
+                        Before ReKuberate, I worked as a software engineer at  
+                        <a class='project' href='https://www.brooklyngrid.com/'> Brooklyn Grid </a>
+                         designing and building various fullstack applications to track rentals and
+                         violations.
+                    </p>
+                    <p>
+                        Projects that I have recently worked on include 
                         <a class='project' href='https://conquest-7ffadf4c2da1.herokuapp.com/'> Conquest</a>
-                        , a testing suite tracking tool used to promote test driven development across teams.
+                        , a test tracking tool, and a website for the rental company 
+                        <a class='project' href='https://bestopllc.com/'> Bestop</a>.
                     </p>
                     <p>
                         Outside of coding I am passionate about hockey, reading, skiing, and DJing. If you want to talk more about
